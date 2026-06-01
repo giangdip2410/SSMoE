@@ -1,0 +1,9 @@
+setup.py
+CLIPMOE.egg-info/PKG-INFO
+CLIPMOE.egg-info/SOURCES.txt
+CLIPMOE.egg-info/dependency_links.txt
+CLIPMOE.egg-info/top_level.txt
+clipmoe/__init__.py
+clipmoe/clipmoe.py
+clipmoe/model_clipmoe.py
+clipmoe/simple_tokenizer.py

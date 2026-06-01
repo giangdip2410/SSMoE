@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.ipynb_checkpoints/
+.DS_Store
+
+build/
+dist/
+*.egg-info/
+
+results/
+mteb_results*/
+checkpoints/
