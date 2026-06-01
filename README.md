@@ -1,9 +1,9 @@
 # SSMoE
 
-Code release for the ICML paper **"Eigenvectors of Experts are Training-free Non-collapsing Routers"**.
+Code release for the paper **"Eigenvectors of Experts are Training-free Non-collapsing Routers"**.
 
 <p align="center">
-  <img src="SSMoE/Figure/method.png" alt="SSMoE method overview" width="95%">
+  <img src="SSMoE/Figure/method.png" alt="SSMoE method overview" width="65%">
 </p>
 
 ## Abstract
