@@ -2,12 +2,34 @@
 
 Code release for the ICML paper **"Eigenvectors of Experts are Training-free Non-collapsing Routers"**.
 
-SSMoE provides a training-free router for Mixture-of-Experts models by using expert weight eigenspaces. This repository contains the language and vision experiments used in the paper:
+<p align="center">
+  <img src="SSMoE/Figure/method.png" alt="SSMoE method overview" width="95%">
+</p>
+
+## Abstract
+
+Sparse Mixture of Experts (SMoE) architectures improve the training efficiency of Large Language
+Models (LLMs) by routing input tokens to a selected subset of specialized experts. Despite their
+remarkable success, both training and inference in SMoE models suffer from the expert collapse issue
+(Chi et al., 2022), which degrades model performance. Prior studies primarily focus on improving the
+router; however, such methods rely on training from scratch or fine-tuning, which requires high
+computational and data-processing costs. Furthermore, we demonstrate that, despite these efforts, the
+issue persists when advancing well-pretrained SMoE models, as evidenced by both theoretical and
+empirical results. To fill that gap, we analyze the advanced SMoE models and observe that the
+eigenvectors of expert weight matrices encode rich semantic information, pointing to an effective
+alternative to conventional routing strategies. Building on this insight, we propose Singular Value
+Decomposition SMoE (SSMoE), a novel and training-free framework that leverages spectral properties
+of the expert weights to address the collapse issue and enhance model performance. Extensive
+experiments across diverse language and vision tasks, under both clean and corrupt data settings,
+demonstrate the strong generalization and robustness of SSMoE. Our findings highlight how a deeper
+understanding of model internals can guide the development of more effective SMoE architectures.
+
+## Overview
+
+This repository contains the language and vision experiments used in the paper:
 
 - `SSMoE/Language/SSMoE-Embedding`: MoE language-model embedding evaluation on MTEB.
 - `SSMoE/Vision/CLIP-SSMoE`: CLIP-MoE retrieval and classification evaluation.
-
-![SSMoE method](SSMoE/Vision/CLIP-SSMoE/images/method.png)
 
 ## Repository Layout
 
