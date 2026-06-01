@@ -154,8 +154,8 @@ For COCO, Flickr30K, ImageNet, CIFAR, and STL-10, prepare datasets following the
 
 This code builds on the following projects:
 
+- [MoE-Embedding](https://github.com/tianyi-lab/moe-embedding)
 - [CLIP-MoE](https://github.com/OpenSparseLLMs/CLIP-MoE)
-- [OpenAI CLIP](https://github.com/openai/CLIP)
 - [MTEB](https://github.com/embeddings-benchmark/mteb)
 
 ## Citation
