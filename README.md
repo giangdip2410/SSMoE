@@ -160,4 +160,15 @@ This code builds on the following projects:
 
 ## Citation
 
-If you use this code, please cite our paper. BibTeX will be added after the camera-ready metadata is available.
+If you find this repository useful, please cite our paper:
+
+```@misc{do2026eigenvectorsexpertstrainingfreenoncollapsing,
+      title={Eigenvectors of Experts are Training-free Non-collapsing Routers}, 
+      author={Giang Do and Hung Le and Truyen Tran},
+      year={2026},
+      eprint={2605.30992},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2605.30992}, 
+}
+```
