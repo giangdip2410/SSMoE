@@ -162,13 +162,14 @@ This code builds on the following projects:
 
 If you find this repository useful, please cite our paper:
 
-```@misc{do2026eigenvectorsexpertstrainingfreenoncollapsing,
-      title={Eigenvectors of Experts are Training-free Non-collapsing Routers}, 
-      author={Giang Do and Hung Le and Truyen Tran},
-      year={2026},
-      eprint={2605.30992},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2605.30992}, 
+```bibtex
+@misc{do2026eigenvectorsexpertstrainingfreenoncollapsing,
+  title         = {Eigenvectors of Experts are Training-free Non-collapsing Routers},
+  author        = {Giang Do and Hung Le and Truyen Tran},
+  year          = {2026},
+  eprint        = {2605.30992},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2605.30992}
 }
 ```
